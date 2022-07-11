@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="602.0" style="-fx-background-color: #FFC133;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="237.0" prefWidth="180.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label style="-fx-background-color: #FFF033;" text="Nomor Antrian ">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="15.0" layoutY="10.0" text="003">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="15.0" layoutY="10.0" style="-fx-background-color: #FFF033;" text="Nomor Antrian ">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="15.0" layoutY="47.0" text="003">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </left>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFC133;" text="       LOKET 1&#10;001">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </TextArea>
+            <TextArea layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFC133;" text="       LOKET 2&#10;002">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </TextArea>
+            <TextArea layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFF033;" text="       LOKET 3&#10;003">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </TextArea>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <ImageView fitHeight="195.0" fitWidth="332.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Label text="Sistem Antrian" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>
